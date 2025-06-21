@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    height: 100vh;
+    font-family: var(--font);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+}
+
+.grid {
+    display: grid;
+
+
+}
+
+.landing-section {
+    padding: 80px 0;
+
+    h2 {
+        font-size: 34px;
+        font-weight: 800;
+        color: var(--c-dark);
+        line-height: 1.2;
+    }
+}
+
+@media (max-width : 768px) {
+    .landing-section {
+        padding: 40px 0;
+    }
+
+}
+
+
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

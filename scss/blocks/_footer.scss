@@ -1,0 +1,28 @@
+.main-footer {
+    padding: 30px 0;
+    background-color: var(--c-dark);
+
+    text-align: center;
+
+}
+
+.footer-logo {
+    color: rgb(136, 131, 131);
+    font-size: 22px;
+    font-weight: 600;
+    font-family: --font-accent;
+
+    span {
+
+        font-size: 26px;
+        color: rgb(172, 166, 166);
+    }
+
+}
+
+@media(max-width : 480px) {
+    .main-footer {
+        padding: 20px 0;
+    }
+
+}
